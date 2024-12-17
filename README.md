@@ -13,6 +13,7 @@ Estas dos imagenes que tenemos abajo son los recuadros de crear y de editar, amb
 
 A rasgos generales, eplicare el resto, en la parte izquierda, debajo de los chechbox, hay botones que te dan la opcion de guardar la informacion, funcionan simplemente tocandolos, no hay que hacer mas que eso.
 
-![This is an alt text.](4.PNG)
 
 En la parte de la derecha veraz la seccion de filtrado y orden, en los que dicen "orden", deberas solo clickear el orden que quieres y se mostrara en pantalla. El filtrado, seleccionando la checkbox que quieras e ingresando el texto por el cual quieras filtrar, mostrara los resultados en la listview debajo de los checklist
+
+![This is an alt text.](4.PNG)
