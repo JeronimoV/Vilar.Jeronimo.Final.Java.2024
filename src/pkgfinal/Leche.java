@@ -17,6 +17,7 @@ public class Leche extends Producto implements productosMetodos, Serializable {
     public Leche(Marcas marca , int precio, int cantidad, int vendidos, String porcentajeGrasa, int codigoProducto, String nombreProducto, int peso, TiposLeche tipo) {
         super(precio, cantidad, vendidos, codigoProducto, nombreProducto, peso, marca);
         this.tipo = tipo;
+        this.porcentajeGrasa = porcentajeGrasa;
         
     }
     

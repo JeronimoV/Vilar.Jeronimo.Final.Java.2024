@@ -169,6 +169,8 @@ public class scene1Controllers implements Initializable{
                     productosInfo.add("Cantidad: " + Integer.toString(retorno.cantidad));
                     productosInfo.add("Vendidos: " + Integer.toString(retorno.vendidos));
                     productosInfo.add("Peso: " + Integer.toString(retorno.peso));
+                    productosInfo.add("Porcentaje de Grasa: " + ((Leche)retorno).porcentajeGrasa);
+                    productosInfo.add("Peso: " + ((Leche)retorno).tipo.name());
                     
                     infoLeche.setItems(productosInfo);
                     break;
@@ -181,6 +183,8 @@ public class scene1Controllers implements Initializable{
                     productosInfo.add("Cantidad: " + Integer.toString(retorno.cantidad));
                     productosInfo.add("Vendidos: " + Integer.toString(retorno.vendidos));
                     productosInfo.add("Peso: " + Integer.toString(retorno.peso));
+                    productosInfo.add("Tipo Queso: " + ((Queso)retorno).tipoQueso.name());
+                    productosInfo.add("Procedencia: " + ((Queso)retorno).procedencia.name());
                     
                     infoQueso.setItems(productosInfo);
                     break;
@@ -193,6 +197,8 @@ public class scene1Controllers implements Initializable{
                     productosInfo.add("Cantidad: " + Integer.toString(retorno.cantidad));
                     productosInfo.add("Vendidos: " + Integer.toString(retorno.vendidos));
                     productosInfo.add("Peso: " + Integer.toString(retorno.peso));
+                    productosInfo.add("Procedencia: " + ((Palmito)retorno).pais.name());
+                    productosInfo.add("Enlatado: " + ((Palmito)retorno).enlatado);
                     
                     infoPalmito.setItems(productosInfo);
                     break;
