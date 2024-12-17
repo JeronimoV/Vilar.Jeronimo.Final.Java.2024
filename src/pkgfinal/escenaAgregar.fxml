@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="panel" fx:controller="pkgfinal.scene3Controllers" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="179.0" layoutY="50.0" prefHeight="23.0" prefWidth="248.0" text="Nuevo Producto" />
+      <TextField fx:id="nombre" layoutX="229.0" layoutY="167.0" text="Nombre Producto" />
+      <TextField fx:id="codigo" layoutX="229.0" layoutY="200.0" text="Codigo Producto" />
+      <TextField fx:id="precio" layoutX="229.0" layoutY="233.0" text="Precio" />
+      <TextField fx:id="peso" layoutX="229.0" layoutY="264.0" text="Peso" />
+      <Button onAction="#completar" layoutX="238.0" layoutY="334.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" text="Confirmar" />
+      <Label layoutX="173.0" layoutY="171.0" text="Nombre" />
+      <Label layoutX="173.0" layoutY="237.0" text="Precio" />
+      <Label layoutX="173.0" layoutY="268.0" text="Peso" />
+      <Label layoutX="173.0" layoutY="204.0" text="Codigo" />
+      <ChoiceBox fx:id="marca" layoutX="228.0" layoutY="132.0" prefWidth="150.0" />
+      <Label layoutX="173.0" layoutY="136.0" text="Marca" />
+      <ChoiceBox fx:id="tipo" layoutX="228.0" layoutY="98.0" prefWidth="150.0" />
+      <Label layoutX="176.0" layoutY="102.0" text="Tipo" />
+   </children>
+</Pane>

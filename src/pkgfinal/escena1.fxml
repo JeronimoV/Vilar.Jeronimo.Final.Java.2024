@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:controller="pkgfinal.scene1Controllers" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="876.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView onMouseClicked="#seleccionar" fx:id="Quesos" layoutX="32.0" layoutY="274.0" prefHeight="226.0" prefWidth="256.0" />
+      <ListView onMouseClicked="#seleccionar" fx:id="Leches" layoutX="322.0" layoutY="274.0" prefHeight="226.0" prefWidth="256.0" />
+      <ListView onMouseClicked="#seleccionar" fx:id="Palmitos" layoutX="618.0" layoutY="274.0" prefHeight="226.0" prefWidth="256.0" />
+      <Button onAction="#openEdit" layoutX="372.0" layoutY="597.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" text="Editar Producto" />
+      <CheckBox onAction="#manipularDataCheck" fx:id="eliminar" layoutX="32.0" layoutY="539.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="155.0" text="Eliminar al seleccionar" />
+      <Button onAction="#casosOrdenButton" fx:id="natural" layoutX="554.0" layoutY="537.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="186.0" text="Orden natural (Producto cod.)" />
+      <Button onAction="#casosOrdenButton" fx:id="cantidad" layoutX="746.0" layoutY="537.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="149.0" text="Orden por cantidad" />
+      <Button onAction="#casosOrdenButton" fx:id="precio" layoutX="554.0" layoutY="565.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="149.0" text="Orden por precio" />
+      <CheckBox onAction="#manipularDataCheck" fx:id="editar" layoutX="197.0" layoutY="539.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="155.0" text="Editar seleccionado" />
+      <CheckBox onAction="#seleccionarFiltro" fx:id="filter1" id="1" layoutX="554.0" layoutY="594.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="149.0" text="Filtrado por Nombre"/>
+      <CheckBox onAction="#seleccionarFiltro" fx:id="filter2" id="2" layoutX="554.0" layoutY="620.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="149.0" text="Filtrado por Marca" />
+      <CheckBox onAction="#seleccionarFiltro" fx:id="filter3" id="3" layoutX="746.0" layoutY="594.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="149.0" text="Filtrado por codigo" />
+      <Button onAction="#saveDataBinary" layoutX="35.0" layoutY="577.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="149.0" text="Guardar Binario" />
+      <Button onAction="#saveDataJson" layoutX="197.0" layoutY="577.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="149.0" text="Guardar JSON" />
+      <Button onAction="#downloadDataBinary" layoutX="35.0" layoutY="611.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="149.0" text="Cargar Binario" />
+      <Button onAction="#downloadDataJson" layoutX="197.0" layoutY="611.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="149.0" text="Cargar JSON" />
+      <Button onAction="#openAgregar" layoutX="372.0" layoutY="540.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" text="Agregar Producto" />
+      <Button onAction="#actualizarLista" layoutX="372.0" layoutY="727.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" text="Actualizar Lista" />
+      <Label layoutX="696" layoutY="652" text="Filtrado" />
+      <ListView fx:id="infoQueso" id="infoQ" layoutX="32.0" layoutY="35.0" prefHeight="226.0" prefWidth="256.0" />
+      <ListView fx:id="infoPalmito" id="infoP" layoutX="618.0" layoutY="35.0" prefHeight="226.0" prefWidth="256.0" />
+      <ListView fx:id="infoLeche" id="infol" layoutX="322.0" layoutY="35.0" prefHeight="226.0" prefWidth="256.0" />
+      <Button onAction="#filtrarData" layoutX="826.0" layoutY="619.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="44.0" text="OK" />
+      <TextField fx:id="texto" layoutX="746.0" layoutY="619.0" prefHeight="25.0" prefWidth="80.0" promptText="Texto a Filtrar" />
+      <ListView fx:id="listaFiltrada" layoutX="562.0" layoutY="673.0" prefHeight="167.0" prefWidth="312.0" />
+   </children>
+</Pane>
