@@ -106,7 +106,7 @@ public class scene1Controllers implements Initializable{
     
     public void filtrarData(ActionEvent event){
         Object source = event.getSource();
-        if(source instanceof Button){
+        if(source instanceof Button){ //Filtra los productos, teniendo en cuenta el texto que se ingreso y la checkbox seleccionada, todo esto luego de apretar el boton "ok"
             String dato = texto.getText();
             ArrayList<Producto> resultado = gestion.filtrado(idFilter, dato);
             System.out.println(resultado);
@@ -122,7 +122,7 @@ public class scene1Controllers implements Initializable{
         String productoL = Leches.getSelectionModel().getSelectedItem();
         String productoQ = Quesos.getSelectionModel().getSelectedItem();
         String productoP = Palmitos.getSelectionModel().getSelectedItem();
-        if(seleccionEliminar == true){
+        if(seleccionEliminar == true){ //Elimina al hacer click, solo si esta activada la checkbox
             while(gestion.hasNext()){
                 Producto retorno = gestion.next();
                 System.out.println(retorno instanceof Queso);
@@ -139,7 +139,7 @@ public class scene1Controllers implements Initializable{
             this.actualizarLista();
         }
         
-        if(seleccionEditar == true){
+        if(seleccionEditar == true){ //permite editar al hacer click y luego en el boton de editar, solo si esta activada la checkbox
             while(gestion.hasNext()){
                 Producto retorno = gestion.next();
                 if( productoL != null && retorno instanceof Leche && ((Leche)retorno).nombreProducto.equals(productoL)){
@@ -157,7 +157,7 @@ public class scene1Controllers implements Initializable{
             }
         }
         
-        if(seleccionEditar == false && seleccionEliminar == false){
+        if(seleccionEditar == false && seleccionEliminar == false){ //Muestra informacion detallada al hacer click
             while(gestion.hasNext()){
                 Producto retorno = gestion.next();
                 ObservableList<String> productosInfo = FXCollections.observableArrayList();

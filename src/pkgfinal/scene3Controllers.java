@@ -75,7 +75,7 @@ public class scene3Controllers implements Initializable {
     }
     
     @Override
-    public void initialize(URL url, ResourceBundle rb){
+    public void initialize(URL url, ResourceBundle rb){ //Llena los combobox para que puedas seleccionar lo deseado
         tipo.getItems().addAll("Leche", "Queso", "Palmito");
         Marcas[] arregloMarcas = Marcas.values();
         for(Marcas obj: arregloMarcas){

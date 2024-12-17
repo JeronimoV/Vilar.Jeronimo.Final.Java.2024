@@ -85,7 +85,7 @@ public class scene2Controllers implements Initializable {
     }
     
         @Override
-        public void initialize(URL url, ResourceBundle rb) {
+        public void initialize(URL url, ResourceBundle rb) { //Llena las casillas con la informacion actual, para poder editarla
         // Configuración básica
         titulo.setText(seleccionado.nombreProducto + " - " + seleccionado.codigoProducto);
         nombre.setText(seleccionado.nombreProducto);
