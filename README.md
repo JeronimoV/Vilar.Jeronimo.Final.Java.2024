@@ -42,3 +42,4 @@ Esta seria la ventana de filtrado, aparecera una list view donde apareceran los 
 
 ![uml](https://github.com/user-attachments/assets/1fb922da-3827-4a8c-ab78-44fb198a6355)
 
+
