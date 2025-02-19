@@ -40,6 +40,7 @@ Esta seria la ventana de filtrado, aparecera una list view donde apareceran los 
 
 ## UML:
 
-![uml](https://github.com/user-attachments/assets/1fb922da-3827-4a8c-ab78-44fb198a6355)
+
+![uml](https://github.com/user-attachments/assets/872b6ecc-2d16-4a78-a4fb-ae1245110686)
 
 
