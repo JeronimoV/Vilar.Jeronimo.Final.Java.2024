@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:controller="controllers.infoAdicionalController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="tipo" layoutX="209.0" layoutY="47.0" text="Tipo Producto">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="text_id" layoutX="230.0" layoutY="90.0" prefHeight="32.0" prefWidth="17.0" text="Id" textAlignment="CENTER" />
+      <Label fx:id="text_origen" layoutX="230.0" layoutY="122.0" prefHeight="32.0" prefWidth="40.0" text="Origen" textAlignment="CENTER" />
+      <Label fx:id="text_precio" layoutX="230.0" layoutY="154.0" prefHeight="32.0" prefWidth="40.0" text="Precio" textAlignment="CENTER" />
+      <Label fx:id="text_nombre" layoutX="230.0" layoutY="186.0" prefHeight="32.0" prefWidth="52.0" text="Nombre" textAlignment="CENTER" />
+      <Label fx:id="text_especie" layoutX="230.0" layoutY="218.0" prefHeight="32.0" prefWidth="46.0" text="Especie" textAlignment="CENTER" />
+      <Label fx:id="text_vendidos" layoutX="230.0" layoutY="250.0" prefHeight="32.0" prefWidth="52.0" text="Vendidos" textAlignment="CENTER" />
+      <Label fx:id="opcion1" layoutX="230.0" layoutY="282.0" prefHeight="32.0" prefWidth="70.0" text="opcional1" textAlignment="CENTER" />
+      <Label fx:id="opcion2" layoutX="230.0" layoutY="314.0" prefHeight="32.0" prefWidth="70.0" text="opcional2" textAlignment="CENTER" />
+      <Label fx:id="id" layoutX="310.0" layoutY="98.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="origen" layoutX="310.0" layoutY="130.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="precio" layoutX="310.0" layoutY="162.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="nombre" layoutX="310.0" layoutY="194.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="especie" layoutX="310.0" layoutY="226.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="vendidos" layoutX="310.0" layoutY="258.0" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      <Label fx:id="op1" layoutX="310.0" layoutY="290.0" prefHeight="17.0" prefWidth="200.0" text="Label" />
+      <Label fx:id="op2" layoutX="310.0" layoutY="322.0" prefHeight="17.0" prefWidth="200.0" text="Label" />
+   </children>
+</Pane>

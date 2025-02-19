@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:controller="controllers.filtradoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView onMouseClicked="#seleccion" fx:id="listview" layoutX="22.0" layoutY="21.0" prefHeight="200.0" prefWidth="556.0" />
+      <ComboBox fx:id="combobox" layoutX="225.0" layoutY="244.0" prefWidth="150.0" promptText="Tipo de Filtrado" />
+      <TextField fx:id="textfield" layoutX="225.0" layoutY="282.0" prefHeight="25.0" prefWidth="150.0" promptText="Texto a buscar" />
+      <Button fx:id="boton" onAction="#buscar" layoutX="225.0" layoutY="326.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Filtrar" />
+   </children>
+</Pane>

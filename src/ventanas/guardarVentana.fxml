@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:controller="controllers.guardarController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#guardarCSV" fx:id="" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Guardar CSV" />
+      <Button onAction="#cargarCSV" layoutX="308.0" layoutY="14.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Cargar CSV" />
+      <Button onAction="#guardarJSON" layoutX="14.0" layoutY="94.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Guardar JSON" />
+      <Button onAction="#cargarJSON" layoutX="308.0" layoutY="94.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Cargar JSON" />
+      <Button onAction="#serializar" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Serializar" />
+      <Button onAction="#deserializar" layoutX="308.0" layoutY="175.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="278.0" text="Deserializar" />
+      <Label contentDisplay="CENTER" layoutX="130.0" layoutY="236.0" prefHeight="46.0" prefWidth="500.0" text="Izquierda: Opciones de guardado - Derecha: Opciones de cargado" textAlignment="RIGHT" />
+   </children>
+</Pane>

@@ -1,0 +1,4 @@
+id,origen,precio,nombre,especie,unidades vendidas, Opcional 1, Opcional 2, tipo
+0,BRASIL,2000,Bife de Chorizo Argentino,VACA,0,BIFE_DE_CHORIZO,ROJA,Carne
+1,BRASIL,300,Salchicha Brasilera,CERDO,0,[HUESO, SANGRE],2050,Elaborados
+2,BOLIVIA,150,Trucha Boliviana,PESCADO,0,CRIADERO,true,Acuatico
